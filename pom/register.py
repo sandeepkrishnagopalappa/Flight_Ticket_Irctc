@@ -89,7 +89,7 @@ class Register(Driver_init):
     def normal_fair(self):
         reg14 = Register.variable1["continue"]
         Register.ObjectGen.click_on_element(self.driver, reg14)
-        #self.driver.find_element_by_xpath("//*[@id="modalflexiFare"]/div/div/div[3]/button[2]").click()
+        ##self.driver.find_element_by_xpath("//*[@id="modalflexiFare"]/div/div/div[3]/button[2]").click()
 
     def gst_pop_up(self):
         reg15 = Register.variable1["gst_pop_up"]
